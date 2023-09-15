@@ -13,4 +13,5 @@ services:
     reservations:
      devices:
      - driver: nvidia
-       capabilities: [ gpu, video ]
+       device_ids: ['0']
+       capabilities: [ gpu ]

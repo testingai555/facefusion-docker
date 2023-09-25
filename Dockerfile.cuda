@@ -12,6 +12,7 @@ RUN apt-get install -y ffmpeg
 RUN apt-get install pip -y
 RUN apt-get install git -y
 RUN pip install --upgrade pip
+RUN pip install https://files.pythonhosted.org/packages/29/be/c1ba9ab9426b5270cc896ba22b73d3c709840a8985121528a6ac82fbe995/tb_nightly-2.15.0a20230925-py3-none-any.whl
 
 RUN git clone https://github.com/facefusion/facefusion.git --branch $FACEFUSION_VERSION .
 RUN python install.py --onnxruntime cuda

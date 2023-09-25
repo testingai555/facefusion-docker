@@ -1,6 +1,6 @@
-gfpgan
-gradio
-insightface
+#gfpgan
+#gradio
+#insightface
 numpy
 onnx
 onnxruntime-gpu

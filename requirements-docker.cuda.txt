@@ -10,5 +10,5 @@ pillow
 protobuf
 psutil
 realesrgan
-tensorflow
+#tensorflow
 tqdm

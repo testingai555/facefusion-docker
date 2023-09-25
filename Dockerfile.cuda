@@ -7,9 +7,10 @@ ENV GRADIO_SERVER_NAME=0.0.0.0
 WORKDIR /facefusion
 
 RUN apt-get update
+Run pip upgrade pip
 RUN apt-get install -y ffmpeg
 
 RUN git clone https://github.com/facefusion/facefusion.git --branch $FACEFUSION_VERSION .
 RUN pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu118
-RUN pip uninstall onnxruntime
+#RUN pip uninstall onnxruntime
 RUN pip install onnxruntime-gpu==1.15.1

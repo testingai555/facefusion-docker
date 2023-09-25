@@ -2,7 +2,7 @@ gfpgan
 gradio
 insightface
 numpy
-onnx
+#onnx
 onnxruntime-gpu
 opencv-python
 opennsfw2
@@ -11,4 +11,4 @@ protobuf
 psutil
 realesrgan
 #tensorflow
-tqdm
+#tqdm

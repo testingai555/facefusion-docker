@@ -1,6 +1,6 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
-#gfpgan
-#gradio
+gfpgan
+gradio
 insightface
 numpy
 onnx

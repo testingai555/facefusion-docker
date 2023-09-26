@@ -1,15 +1,15 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 #gfpgan
 #gradio
-#insightface
-#numpy
-#onnx
-#onnxruntime-gpu
-#opencv-python
-#opennsfw2
-pillow
-protobuf
-psutil
-realesrgan
-tensorflow
-tqdm
+insightface
+numpy
+onnx
+onnxruntime-gpu
+opencv-python
+opennsfw2
+#pillow
+#protobuf
+#psutil
+#realesrgan
+#tensorflow
+#tqdm

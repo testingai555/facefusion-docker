@@ -2,11 +2,11 @@
 #gfpgan
 #gradio
 #insightface
-numpy
-onnx
-onnxruntime-gpu
-opencv-python
-opennsfw2
+#numpy
+#onnx
+#onnxruntime-gpu
+#opencv-python
+#opennsfw2
 pillow
 protobuf
 psutil
